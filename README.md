@@ -1,2 +1,36 @@
 # language-project
 lab on cloud computing
+</DOCTYPE html>
+<html>
+<head>
+ <tittle>Contact Us</tittle>
+</head>
+<body>
+  <h2>Feedback From</h2>
+<from>
+ <label>Name:</label></br>
+ <input type="text"><br><br>
+
+ <label>Email:</label></br>
+ <input type="email"><br><br>
+
+ <label>Message:</label></br>
+ <textarea></textarea><br><br>
+
+<label for=""rating">Rating:</label>
+<select id="rating" name="rating" required>
+<option value="" disabled selected>select your rating</option>
+<option value="1">1 - poor</option>
+<option value="2">2 - Fair</option>
+<option value="3">3 - Good</option>
+<option value="4">4 - Very Good</option>
+<option value="5">5 - Excellent</option>
+</select>
+
+<h1><button type="submit">submit</button></h1>
+
+</form>
+</body>
+</html>
+
+ 
